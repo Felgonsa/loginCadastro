@@ -47,5 +47,5 @@ CREATE TABLE usuarios (
 http://localhost:5000
 
 
-Autor -- [Felipe Gonçalves](https://github.com/Felgonsa)
+Autor -- [Felipe Gonçalves de Souza](https://github.com/Felgonsa)
 
