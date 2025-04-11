@@ -1,0 +1,48 @@
+body{
+    background-color: #333;
+    color: white;
+}
+
+#listaUsuarios {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  #listaUsuarios li {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+  }
+  
+  #listaUsuarios li:hover {
+    background-color: #eaeaea;
+  }
+  
+  #listaUsuarios div {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+#logoutBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 20%;
+    padding: 10px 10px;
+}
+
+#logoutBtn:hover{
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login e Cadastro</title>
+
+  <link rel="stylesheet" href="./style/style.css">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="tabs">
+      <button onclick="showForm('login')" class="active">Login</button>
+      <button onclick="showForm('cadastro')">Cadastro</button>
+    </div>
+
+    <!-- Formulário de Login -->
+    <form id="loginForm" class="active"  method="POST">
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="senha" placeholder="Senha" required />
+      <button type="submit">Entrar</button>
+    </form>
+
+    <!-- Formulário de Cadastro -->
+    <form id="cadastroForm"  method="POST">
+      <input type="text" name="nome" placeholder="Nome completo" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="senha" placeholder="Senha" required />
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+
+
+  <script src="./script/logcad.js"></script>
+</body>
+</html>
